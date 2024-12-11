@@ -1,0 +1,22 @@
+.section-input {
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+.section-input input {
+  margin-right: 2rem;
+}
+.section-input button {
+  margin-left: 5rem;
+}
+
+.input-padding {
+  padding: 0.5rem 1rem;
+}
+.search-btn {
+  cursor: pointer;
+}
+.search-btn:hover {
+  background-color: tomato;
+  color: #fff;
+}
