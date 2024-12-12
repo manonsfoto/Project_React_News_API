@@ -8,11 +8,12 @@ interface PropsInput {
 const Input: React.FC<PropsInput> = (props) => {
   const [inputText, setInputText] = useState<string>("");
   const [inputLang, setInputLang] = useState<string>("");
+  const apiKey = import.meta.env.VITE_API_KEY;
 
   const getSearchURL = () => {
     if (inputText && inputLang) {
       props.setURL(
-        `http://newsapi.org/v2/everything?q=${inputText}&language=${inputLang}&apiKey=0d294c999de8492386b01d6ec35a0a30`
+        `http://newsapi.org/v2/everything?q=${inputText}&language=${inputLang}&apiKey=${apiKey}`
       );
     }
   };
