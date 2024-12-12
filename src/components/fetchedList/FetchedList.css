@@ -2,10 +2,11 @@
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2rem;
+  margin-bottom: 5rem;
 }
 .card {
   gap: 20px;
-  width: 25vw;
+  width: 100vw;
   height: fit-content;
   padding: 1.2rem;
   border: 2px solid black;
