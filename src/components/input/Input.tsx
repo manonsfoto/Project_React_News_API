@@ -12,7 +12,7 @@ const Input: React.FC<PropsInput> = (props) => {
   const getSearchURL = () => {
     if (inputText && inputLang) {
       props.setURL(
-        `https://newsapi.org/v2/everything?q=${inputText}&language=${inputLang}&apiKey=0d294c999de8492386b01d6ec35a0a30`
+        `http://newsapi.org/v2/everything?q=${inputText}&language=${inputLang}&apiKey=0d294c999de8492386b01d6ec35a0a30`
       );
     }
   };
